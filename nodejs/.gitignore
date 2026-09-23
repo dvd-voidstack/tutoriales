@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos generados por el programa
+output/
+
+# Configuracion especifica de VS Code
+.vscode/
+
+# Logs
+*.log
+npm-debug.log

@@ -1,0 +1,176 @@
+# Node.js — Tutoriales y apuntes
+
+Repositorio personal donde guardo ejemplos, ejercicios y apuntes de los tutoriales que voy realizando para aprender **Node.js**.
+
+La idea de este repositorio es tener una referencia rápida a la que pueda regresar cuando necesite recordar cómo funciona alguna característica específica de Node.js.
+
+---
+
+## 📚 Contenido
+
+Los ejemplos están organizados siguiendo el orden en el que fueron vistos durante el tutorial:
+
+| # | Archivo           | Tema                                              |
+| - | ----------------- | ------------------------------------------------- |
+| 1 | `math.js`         | Creación de módulos                               |
+| 2 | `common.js`       | Importación de módulos                            |
+| 3 | `index.js`        | Forma recomendada de realizar imports             |
+| 4 | `manage-files.js` | Manejo de archivos y directorios                  |
+| 5 | `cli.js`          | Lectura de directorios y creación de comandos CLI |
+| 6 | `system-info.js`  | Información del sistema y dependencias externas   |
+| 7 | `server.js`       | Creación de un servidor HTTP con Node.js          |
+
+---
+
+## 🧩 Módulos y imports
+
+### 1. `math.js`
+
+Primer ejemplo del tutorial.
+
+En este archivo se muestra cómo **crear un módulo propio** y exportar funcionalidades para poder utilizarlas desde otros archivos.
+
+**Conceptos:**
+
+* Creación de módulos.
+* Exportación de funciones.
+* Organización del código en diferentes archivos.
+
+---
+
+### 2. `common.js`
+
+En este ejemplo se muestra la forma tradicional de realizar **imports en Node.js** utilizando el sistema de módulos CommonJS.
+
+**Conceptos:**
+
+* `require()`
+* `module.exports`
+* Importación de módulos propios.
+
+---
+
+### 3. `index.js`
+
+Se muestra una forma recomendada de realizar imports utilizando la sintaxis de **ES Modules**.
+
+**Conceptos:**
+
+* `import`
+* `export`
+* ES Modules.
+* Diferencias con CommonJS.
+
+---
+
+## 📁 Manejo de archivos
+
+### 4. `manage-files.js`
+
+En este ejemplo se exploran algunos de los **módulos nativos de Node.js** relacionados con el manejo de archivos y rutas.
+
+**Módulos y funciones exploradas:**
+
+* `mkdir`
+* `readFile`
+* `writeFile`
+* `join`
+* `basename`
+* `extname`
+
+**Conceptos:**
+
+* Creación de directorios.
+* Lectura de archivos.
+* Escritura de archivos.
+* Manejo de rutas.
+* Obtención del nombre y extensión de archivos.
+
+---
+
+## 🖥️ CLI y sistema operativo
+
+### 5. `cli.js`
+
+Este ejemplo explora módulos nativos que permiten trabajar con directorios y archivos.
+
+**Funciones exploradas:**
+
+* `readdir`
+* `stat`
+* `join`
+
+Además, se muestra cómo utilizar las funcionalidades nativas de Node.js para crear una aplicación que puede **recrear comandos utilizados desde la línea de comandos (CLI)**.
+
+**Conceptos:**
+
+* Lectura de directorios.
+* Información sobre archivos.
+* Rutas.
+* Aplicaciones CLI.
+* Uso de Node.js desde la terminal.
+
+---
+
+### 6. `system-info.js`
+
+En este ejemplo se utiliza el módulo nativo **`os`** de Node.js para obtener información del sistema.
+
+También se muestra cómo **instalar y utilizar dependencias externas** dentro de un proyecto Node.js.
+
+**Conceptos:**
+
+* Módulo `os`.
+* Información del sistema operativo.
+* Dependencias externas.
+* Instalación de paquetes con `npm`.
+
+---
+
+## 🌐 Servidores HTTP
+
+### 7. `server.js`
+
+En este último ejemplo se explora la creación de un **servidor HTTP utilizando únicamente funcionalidades nativas de Node.js**, sin instalar dependencias externas.
+
+**Conceptos:**
+
+* Creación de un servidor.
+* Módulo `http`.
+* Solicitudes HTTP.
+* Respuestas HTTP.
+* Uso de `listen()`.
+* Puertos y servidor local.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* **Node.js**
+* **JavaScript**
+* **npm**
+* **CommonJS**
+* **ES Modules**
+* **HTTP**
+
+---
+
+## 📂 Estructura
+
+```text
+.
+├── math.js
+├── common.js
+├── index.js
+├── manage-files.js
+├── cli.js
+├── system-info.js
+├── server.js
+└── README.md
+```
+
+---
+
+## 📝 Notas
+
+Este README se irá actualizando conforme avance con los tutoriales de Node.js y se agreguen nuevos ejemplos al repositorio.
